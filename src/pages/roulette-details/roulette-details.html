@@ -1,0 +1,33 @@
+<!--
+  Generated template for the RouletteDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="nav">
+    <ion-title>Roulette</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+        <img src ="{{this.locationsData.imgURL}}" >
+        <ion-card-content>
+          <ion-card-title>
+            {{this.locationsData.name}}
+          </ion-card-title>
+          <p>{{this.tags}}</p>
+          <p>{{this.locationsData.price}}</p>
+          <p>{{this.locationsData.rating}} Stars</p>
+        </ion-card-content>
+      </ion-card>
+      <br>
+      <div text-center> 
+          <button ion-button (click)="goToNavigation()"> Directions </button>
+      </div>
+      <br>
+      <div text-center> 
+          <button ion-button> Menu </button>
+      </div>
+    </ion-content>
