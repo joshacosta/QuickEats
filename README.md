@@ -1,6 +1,6 @@
 # Steps to run project with Ionic Framework and Cordova #
 
-## Some info about Ionic Framework#
+## Some info about Ionic Framework ##
 Ionic Framework is a development framework that utilizes Angular to create applications. With it's library of pre-created UI components, ability for cross-platform development, native functionality for devices, and lightweight frontend SDK, it is a solid framework for maintainable web and phone applications. Further information and its robust documentation can be found [here](https://ionicframework.com/docs "here").
 
 ## Download Node ##
