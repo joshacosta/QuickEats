@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-//import { LaunchNavigator, LaunchNavigatorOptions } from '@ionic-native/launch-navigator/ngx';
+import { LaunchNavigator, LaunchNavigatorOptions } from '@ionic-native/launch-navigator/ngx';
 
 /**
  * Generated class for the RouletteDetailsPage page.
@@ -19,7 +19,7 @@ export class RouletteDetailsPage {
   public locationsData: any;
   public tags: string;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private launchNavigator: LaunchNavigator) {
     this.locationsData = navParams.get('locations');
     this.tags = this.locationsData.type.join(", ");
     console.log(this.tags);
@@ -30,6 +30,9 @@ export class RouletteDetailsPage {
   }
 
   goToNavigation(){
+    let options: LaunchNavigatorOptions = {
+      app: this.launchNavigator.APP.USER_SELECT
+    }
     // let options: LaunchNavigatorOptions = {
     //   start: 'London, ON',
     //   app: LaunchNavigator.getSupportedPlatforms.
@@ -41,7 +44,7 @@ export class RouletteDetailsPage {
     //     error => console.log('Error launching navigator', error)
     //   );
 
-    //this.launchNavigator.navigate(this.locationsData.address);
+    this.launchNavigator.navigate(this.locationsData.address, options);
   }
 
 }

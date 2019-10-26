@@ -7,9 +7,10 @@ import { ListPage } from '../pages/list/list';
 import { RoulettePage } from '../pages/roulette/roulette';
 import { RouletteDetailsPage } from '../pages/roulette-details/roulette-details';
 
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { LaunchNavigator } from '@ionic-native/launch-navigator/ngx';
+ 
 @NgModule({
   declarations: [
     MyApp,
@@ -29,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RouletteDetailsPage
   ],
   providers: [
+    LaunchNavigator,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

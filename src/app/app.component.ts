@@ -1,12 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 
 import { ListPage } from '../pages/list/list';
 import { RoulettePage } from '../pages/roulette/roulette';
-import { RouletteDetailsPage } from '../pages/roulette-details/roulette-details';
-
 
 @Component({
   templateUrl: 'app.html'
