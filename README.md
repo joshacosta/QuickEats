@@ -40,6 +40,8 @@ This is the plugin that allows developers to connect a phone's navigation capabi
 
 `npm install @ionic-native/launch-navigator`
 
+After these lines, you'll notice a "plugins" folder with the Launch Navigator plugin includes. 
+
 ## Running the project ##
 At this point, that finishes the dependencies needed to run this project. Run the project with this line:
 
