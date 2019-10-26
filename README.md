@@ -35,7 +35,9 @@ You'll see it do its thing. It will probably taking awhile, it's importing a shi
 
 ## Installing Cordova Plugin for Launch Navigator ## 
 This is the plugin that allows developers to connect a phone's navigation capabilities to an application. Run these lines in your project folder:
+
 `ionic cordova plugin add uk.co.workingedge.phonegap.plugin.launchnavigator`
+
 `npm install @ionic-native/launch-navigator`
 
 ## Running the project ##
