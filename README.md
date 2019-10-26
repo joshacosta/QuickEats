@@ -57,7 +57,7 @@ That's it! Please message me if you have any issues, in the case that I missed s
 
 ### If you would like to create a new project and experiment, run this line to create a new Ionic project: ###
 
-`ionic start AppName Template Type --type=ionic-angular`
+`ionic start AppName TemplateType --type=ionic-angular`
 
 Template Types: 
 - "sidemenu": creates new app with a side menu navigation
