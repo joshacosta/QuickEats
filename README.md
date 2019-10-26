@@ -47,9 +47,11 @@ At this point, that finishes the dependencies needed to run this project. Run th
 
 `ionic serve`
 
-Now, a server will run your project and its view. However, if you download the "Ionic Devapp" for your application, you'll be able to run the application directly from your phone. This is used for native-functionality testing that use Cordova. As long as the machine and your phone are on the same network, you'll see your project in the devapp. Here is the line to run with the devapp:
+Now, a server will run your project and its view. However, if you download the "Ionic Devapp" for your application, you'll be able to run the application directly from your phone. This is used for native-functionality testing that use Cordova. As long as the machine and your phone are on the same network, you'll see your project in the devapp. Another thing about ionic serve, is its ability to allow for quick easy development while the server is running still. Any changes made in any src file will automatically reflect in the live view. Here is the line to run with the devapp:
 
 `ionic serve --devapp`
+
+While these "ionic serve"s are running, DO NOT close your IDE window or command prompt. You'll need to terminate the serve process with "CTRL + C". Doing so will prevent processes from stacking up on your machine, which can take up a lot of resources on your machine. Howeer, if you forget, no biggie. You'll just have to restart your machine. 
 
 That's it! Please message me if you have any issues, in the case that I missed something for the setup process. 
 
