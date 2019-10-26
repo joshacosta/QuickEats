@@ -55,7 +55,7 @@ While these "ionic serve"s are running, DO NOT close your IDE window or command 
 
 That's it! Please message me if you have any issues, in the case that I missed something for the setup process. 
 
-*If you would like to create a new project and experiment, run this line to create a new Ionic project: 
+### If you would like to create a new project and experiment, run this line to create a new Ionic project: ###
 
 `ionic start AppName Template Type --type=ionic-angular`
 
