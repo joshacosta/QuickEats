@@ -51,7 +51,7 @@ Now, a server will run your project and its view. However, if you download the "
 
 `ionic serve --devapp`
 
-While these "ionic serve"s are running, DO NOT close your IDE window or command prompt. You'll need to terminate the serve process with "CTRL + C". Doing so will prevent processes from stacking up on your machine, which can take up a lot of resources on your machine. Howeer, if you forget, no biggie. You'll just have to restart your machine. 
+While these "ionic serve"s are running, DO NOT close your IDE window or command prompt. You'll need to terminate the serve process with "CTRL + C". Doing so will prevent processes from stacking up on your machine, which can take up a lot of resources on your machine. However, if you forget, no biggie. You'll just have to restart your machine. 
 
 That's it! Please message me if you have any issues, in the case that I missed something for the setup process. 
 
