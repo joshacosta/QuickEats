@@ -47,7 +47,7 @@ At this point, that finishes the dependencies needed to run this project. Run th
 
 `ionic serve`
 
-Now, a server will run your project and its view. However, if you download the "Ionic Devapp" for your application, you'll be able to run the application directly from your phone. This used for native-functionality testing that use Cordova. As long as the machine and your phone are on the same network, you'll see your project in the devapp. Here is the line to run with the devapp:
+Now, a server will run your project and its view. However, if you download the "Ionic Devapp" for your application, you'll be able to run the application directly from your phone. This is used for native-functionality testing that use Cordova. As long as the machine and your phone are on the same network, you'll see your project in the devapp. Here is the line to run with the devapp:
 
 `ionic serve --devapp`
 
