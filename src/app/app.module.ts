@@ -4,13 +4,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { ListPage } from '../pages/list/list';
-import { RoulettePage } from '../pages/roulette/roulette';
-import { RouletteDetailsPage } from '../pages/roulette-details/roulette-details';
+import { RoulettePage } from "../pages/roulette/roulette"
+import { RouletteDetailsPage } from "../pages/roulette-details/roulette-details"
 
-import { StatusBar } from '@ionic-native/status-bar/ngx';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { LaunchNavigator } from '@ionic-native/launch-navigator/ngx';
- 
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -30,7 +29,6 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator/ngx';
     RouletteDetailsPage
   ],
   providers: [
-    LaunchNavigator,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

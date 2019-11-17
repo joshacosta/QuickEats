@@ -1,0 +1,23 @@
+{
+    "locations": [
+        {
+            "name": "Blue Sky",
+            "rating": "4.4",
+            "address": "3216 4th St, Lubbock, TX 79415",
+            "type": ["American", "Burgers"]
+        },
+        {
+            "name": "Chipotle",
+            "rating": "4.4",
+            "address": "2411 Glenna Goodacre Blvd, Lubbock, TX 79401",
+            "type": ["Mexican Grill"]
+        },
+        {
+            "name": "Thai Pepper",
+            "rating": "4.5",
+            "address": "3702 20th St, Lubbock, TX 79410",
+            "type": ["Mexican Grill"]
+        }
+    ]
+
+}
