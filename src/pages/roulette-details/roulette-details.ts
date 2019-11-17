@@ -30,9 +30,6 @@ export class RouletteDetailsPage {
   }
 
   goToNavigation(){
-    let options: LaunchNavigatorOptions = {
-      app: this.launchNavigator.APP.USER_SELECT
-    }
     // let options: LaunchNavigatorOptions = {
     //   start: 'London, ON',
     //   app: LaunchNavigator.getSupportedPlatforms.
@@ -44,7 +41,7 @@ export class RouletteDetailsPage {
     //     error => console.log('Error launching navigator', error)
     //   );
 
-    this.launchNavigator.navigate(this.locationsData.address, options);
+    this.launchNavigator.navigate(this.locationsData.address);
   }
 
 }
